@@ -27,7 +27,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
     newIcon.style.animationName = "move-in-left";
     
     const logoImage = document.querySelector(".logo-image");
-    logoImage.src = `${isDark ? "assets/images/logo-light.png" : "assets/images/logo-dark.png" }`
+    logoImage.src = `${isDark ? "Assets/images/logo-light.png" : "assets/images/logo-dark.png" }`
   
     const handleAnimationEnd = () => {
       buttonEl.innerHTML = "";
