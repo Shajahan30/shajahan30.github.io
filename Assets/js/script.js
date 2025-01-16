@@ -4,10 +4,10 @@ const messages = [
 		icon: '⚡️',
 		message: "I'm a developer based in Pune, India.",
 	},
-	{ title: 'Food', icon: '🍗', message: 'My favorite food is Chicken seek Biryani.' },
+	{ title: 'Food', icon: '🍗', message: 'My favorite food is Chicken Biryani.' },
 	{ title: 'Gamer', icon: '🎮', message: 'I love playing Badminton.' },
 	{ title: 'Music', icon: '🎵', message: 'I like diverse content.' },
-	{ title: 'Movie', icon: '🎬', message: 'My favorite movie is The Jab We Met.' },
+	{ title: 'Movie', icon: '🎬', message: 'My favorite movie is Jab We Met.' },
 	{ title: 'Show', icon: '🍿', message: 'My favorite TV show is Alice in Borderland.' },
 ]
 
