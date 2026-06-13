@@ -3,255 +3,280 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Shajahan Sayyed</title>
-		<!-- SEO Metadata -->
+		<title>Shajahan Sayyed | Software Engineer & DevOps Enthusiast</title>
 		<meta
 			name="description"
-			content="Steve Tom alias Raccoon254 - Graduate from Chuka University, specializing in Applied Computer Science. Experienced in YouTube, online courses, computer engineering, networking, Python, PHP, JavaScript, and Kotlin for Android Studio."
+			content="Portfolio of Shajahan Sayyed, a Software Engineer and DevOps enthusiast focused on cloud, automation, AWS, Docker, Kubernetes, Python, SQL, and data analytics."
 		/>
 		<meta
 			name="keywords"
-			content="Steve Tom, Chuka University, Applied Computer Science, Computer Engineering, YouTube, Python, PHP, JavaScript, Kotlin, Android Studio, UI/UX Design, Web Development, RacSam, Cahout technologies, Git, Github"
+			content="Shajahan Sayyed, Software Engineer, DevOps Engineer, Cloud Engineer, AWS, Docker, Kubernetes, Python Developer, Data Analytics, SQL, Power BI, CI/CD, Terraform"
 		/>
-		<meta name="author" content="Steve Tom" />
+		<meta name="author" content="Shajahan Sayyed" />
+		<meta name="theme-color" content="#07111f" />
 
-		<!-- Dev icons link for languages and IDES -->
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-		/>
-
-		<!-- Open Graph Meta Tags for Sharing Website Cards -->
-		<meta property="og:title" content="Raccoon254" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Shajahan Sayyed | Software Engineer & DevOps Enthusiast" />
 		<meta
 			property="og:description"
-			content="Steve Tom alias Raccoon254 - Graduate from Chuka University, specializing in Applied Computer Science. Experienced in YouTube, online courses, computer engineering, networking, Python, PHP, JavaScript, and Kotlin for Android Studio."
+			content="Software Engineer building scalable solutions through cloud, automation, and data-driven decision making."
 		/>
-		
+		<meta property="og:image" content="https://shajahan30.github.io/Assets/images/p3.jpg" />
+		<meta property="og:url" content="https://shajahan30.github.io" />
 
-		
-		<!-- External Stylesheets -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
 		<link
 			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-			integrity="sha512-..."
-			crossorigin="anonymous"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
 		/>
 		<link rel="stylesheet" href="Assets/css/style.css" />
-
-		<!-- Tailwind CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-		<script src="https://cdn.tailwindcss.com"></script>
-		
 	</head>
 
 	<body>
-		<header>
-			<div class="logo">
-				<img class="logo-image" src="Assets/images/logo-light.png" alt="Raccoon254's logo" />
-			</div>
-			<div class="nav">
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<!-- Dark mode toggle -->
-					<button type="button" data-theme-toggle aria-label="Change to light theme">
-						Change to theme
-					</button>
-				</ul>
-			</div>
+		<a class="skip-link" href="#main-content">Skip to main content</a>
+
+		<header class="site-header">
+			<a class="brand" href="#home" aria-label="Shajahan Sayyed home">
+				<img src="Assets/images/logo-light.png" alt="" class="brand-logo" />
+				<span>Shajahan Sayyed</span>
+			</a>
+
+			<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<nav class="site-nav" aria-label="Primary navigation">
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#journey">Journey</a>
+				<a href="#contact">Contact</a>
+			</nav>
 		</header>
 
-		<!-- Main content-->
-		<div class="main h-screen">
-			<div class="left">
-				<h1>Hey <span id="wave" class="wave">👋</span></h1>
-				<h1>I'm <span id="name" data-value="Shajahan" class="name">Shajahan</span></h1>
-				<div class="container">
-					<div class="icon">⚡️</div>
-					<div class="data">
-						<h2 class="title">Fun Fact 😄</h2>
-						<div class="message-container">
-							<div class="message">
-								<p>I'm a developer based in Pune, India.</p>
-							</div>
-						</div>
+		<main id="main-content">
+			<section id="home" class="hero section">
+				<div class="hero-content reveal">
+					<p class="eyebrow">Software Engineer based in Pune, India</p>
+					<h1>Shajahan Sayyed</h1>
+					<h2>Software Engineer | DevOps Enthusiast | Data & Automation Professional</h2>
+					<p class="hero-subtitle">
+						Building scalable solutions through Cloud, Automation, and Data-Driven Decision Making.
+					</p>
+					<p class="hero-description">
+						I am a Software Engineer passionate about Cloud, DevOps, Automation, and solving real-world
+						business problems through technology. Currently building expertise in Linux, Docker,
+						Kubernetes, AWS, and CI/CD while helping businesses make data-driven decisions.
+					</p>
+					<div class="hero-actions">
+						<a class="btn btn-primary" href="#projects">View Projects</a>
+						<a class="btn btn-secondary" href="#contact">Contact Me</a>
 					</div>
 				</div>
-			</div>
-			<div class="right">
-				<div class="right-container">
-					<div class="image-container">
+
+				<div class="hero-visual reveal" aria-label="Professional profile image and expertise highlights">
+					<div class="profile-frame">
+						<img src="Assets/images/p3.jpg" alt="Shajahan Sayyed" />
+					</div>
+					<div class="hero-card cloud-card">
+						<span>Cloud</span>
+						<strong>AWS + DevOps</strong>
+					</div>
+					<div class="hero-card data-card">
+						<span>Data</span>
+						<strong>Power BI + SQL</strong>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="section narrow">
+				<div class="section-heading reveal">
+					<p class="eyebrow">About Me</p>
+					<h2>Engineering practical solutions with data, cloud, and automation.</h2>
+				</div>
+				<div class="about-grid reveal">
+					<p>
+						I am Shajahan Sayyed, a Software Engineer with hands-on experience across data analytics,
+						dashboard development, Python, SQL, and business reporting. My work focuses on turning raw
+						information into clear systems, useful insights, and decisions that teams can act on.
+					</p>
+					<p>
+						I am actively transitioning into Cloud and DevOps Engineering by building strong fundamentals
+						in Linux, Docker, Kubernetes, AWS, CI/CD, Terraform, and infrastructure automation. I enjoy
+						learning by building labs, improving workflows, and connecting engineering decisions to
+						real-world business outcomes.
+					</p>
+					<p>
+						Alongside my engineering journey, I am growing as an aspiring freelancer. I bring a growth mindset, problem-solving
+						discipline, and a practical focus on delivering work that is clean, reliable, and useful.
+					</p>
+				</div>
+			</section>
+
+			<section id="skills" class="section">
+				<div class="section-heading reveal">
+					<p class="eyebrow">Skills</p>
+					<h2>Technical strengths organized for modern engineering work.</h2>
+				</div>
+				<div class="skills-grid">
+					<article class="skill-card reveal">
+						<h3>Programming</h3>
+						<div class="badge-list">
+							<span><i class="devicon-python-plain"></i>Python</span>
+							<span><i class="devicon-sqldeveloper-plain"></i>SQL</span>
+							<span><i class="devicon-cplusplus-plain"></i>C++</span>
+							<span><i class="devicon-cplusplus-plain"></i>core JAVA</span>
+						</div>
+					</article>
+					<article class="skill-card reveal">
+						<h3>Data & Analytics</h3>
+						<div class="badge-list">
+							<span>Power BI</span>
+							<span>Data Analysis</span>
+							<span>Data Visualization</span>
+							<span>Data cleaning and Data transformation</span>
+							<span>DAX query</span>
+							<span>Data modeling</span>
+							<span>Reporting and insights</span>
+						</div>
+					</article>
+					<article class="skill-card reveal">
+						<h3>Cloud & DevOps</h3>
+						<div class="badge-list">
+							<span><i class="devicon-linux-plain"></i>Linux</span>
+							<span><i class="devicon-git-plain"></i>Git</span>
+							<span><i class="devicon-docker-plain"></i>Docker</span>
+							<span><i class="devicon-kubernetes-plain"></i>Kubernetes</span>
+							<span><i class="devicon-amazonwebservices-plain-wordmark"></i>AWS</span>
+							<span>CI/CD</span>
+							<span>Terraform</span>
+						</div>
+					</article>
+					<article class="skill-card reveal">
+						<h3>Tools</h3>
+						<div class="badge-list">
+							<span><i class="devicon-github-original"></i>GitHub</span>
+							<span><i class="devicon-mysql-plain"></i>MySQL</span>
+							<span><i class="devicon-vscode-plain"></i>VS Code</span>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section id="focus" class="section">
+				<div class="section-heading reveal">
+					<p class="eyebrow">Current Focus</p>
+					<h2>Building real DevOps capability through focused practice.</h2>
+				</div>
+				<div class="focus-grid">
+					<article class="focus-card reveal"><span>01</span><h3>Linux Administration</h3></article>
+					<article class="focus-card reveal"><span>02</span><h3>Docker</h3></article>
+					<article class="focus-card reveal"><span>03</span><h3>Kubernetes</h3></article>
+					<article class="focus-card reveal"><span>04</span><h3>AWS Cloud</h3></article>
+					<article class="focus-card reveal"><span>05</span><h3>CI/CD Pipelines</h3></article>
+					<article class="focus-card reveal"><span>06</span><h3>Infrastructure Automation</h3></article>
+					<article class="focus-card reveal"><span>07</span><h3>Freelancing Journey</h3></article>
+				</div>
+			</section>
+
+			<section id="projects" class="section">
+				<div class="section-heading reveal">
+					<p class="eyebrow">Projects</p>
+					<h2>Selected work across analytics, dashboards, automation, and DevOps learning.</h2>
+				</div>
+				<div class="project-grid">
+					<article class="project-card reveal">
+						<img src="Assets/images/project1.png" alt="AyurRasa project preview" loading="lazy" />
+						<div class="project-body">
+							<h3>AyurRasa</h3>
+							<p><strong>Problem:</strong> Ayurvedic herb classification needs accurate comparison of rasa characteristics.</p>
+							<p><strong>Solution:</strong> Built a Streamlit application using KNN, SVM, and Tanimoto similarity to predict primary and secondary rasas.</p>
+							<p><strong>Impact:</strong> Delivered a practical prediction tool with reported 97% accuracy for herb analysis workflows.</p>
+							<p><strong>Technologies:</strong> Python, Streamlit, Machine Learning, KNN, SVM</p>
+							<a href="https://github.com/Shajahan30/AyurRasa" target="_blank" rel="noopener">View Project</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
 						<img
-							class="user-image"
-							src="/Assets/images/p3.jpg"
-							alt="Shajahan"
+							class="dashboard-cover"
+							src="Assets/images/project4.png"
+							alt="Sales Performance Dashboard cover"
+							loading="lazy"
 						/>
+						<div class="project-body">
+							<h3>Sales Performance Dashboard</h3>
+							<p><strong>Problem:</strong> Sales data needed a clean performance view for revenue, profit, orders, discounts, customers, and regional trends.</p>
+							<p><strong>Solution:</strong> Built an interactive Power BI dashboard with KPI overview pages, advanced filtering, DAX measures, data modeling, and drill-through reporting.</p>
+							<p><strong>Impact:</strong> Helped convert sales data into actionable insights for smarter decisions, performance tracking, and business reporting.</p>
+							<p><strong>Technologies:</strong> Power BI, Power Query, DAX, Data Modeling, Data Visualization</p>
+							<a href="https://app.powerbi.com/reportEmbed?reportId=b0d65b46-fc64-40db-8c07-4b16bee2ebfd&autoAuth=true&ctid=25d3ad89-beb5-42f9-985d-11551c5ed6a7" target="_blank" rel="noopener">View Dashboard</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<img src="Assets/images/project3.png" alt="Fashion sales dashboard preview" loading="lazy" />
+						<div class="project-body">
+							<h3>Fashion Dashboard</h3>
+							<p><strong>Problem:</strong> Clothing sales data needed a clear view of trends, products, and location performance.</p>
+							<p><strong>Solution:</strong> Developed a Power BI dashboard for sales trend analysis and product performance tracking.</p>
+							<p><strong>Impact:</strong> Helped business users understand sales movement and identify stronger decision points.</p>
+							<p><strong>Technologies:</strong> Power BI, Business Reporting, Dashboard Development</p>
+							<a href="https://app.powerbi.com/view?r=eyJrIjoiZWM1YjVjMDMtNDNjNy00Y2IyLWI0YzQtNzBmMjM1YTU0MWZjIiwidCI6IjI1ZDNhZDg5LWJlYjUtNDJmOS05ODVkLTExNTUxYzVlZDZhNyIsImMiOjN9" target="_blank" rel="noopener">View Dashboard</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal devops-project">
+						<img src="Assets/images/project5.png" alt="DevOps Learning Lab preview" loading="lazy" />
+						<div class="project-body">
+							<h3>DevOps Learning Lab</h3>
+							<p><strong>Problem:</strong> Cloud and DevOps skills require practical, repeatable environments beyond theory.</p>
+							<p><strong>Solution:</strong> Hands-on environment for Linux, Docker, Kubernetes, AWS, Terraform, and CI/CD experimentation while building real-world DevOps expertise.</p>
+							<p><strong>Impact:</strong> Strengthens production-minded thinking around deployment, automation, infrastructure, and reliability.</p>
+							<p><strong>Technologies:</strong> Linux, Docker, Kubernetes, AWS, Terraform, CI/CD</p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section id="services" class="section">
+				<div class="section-heading reveal">
+					<p class="eyebrow">How I Can Help</p>
+					<h2>Practical services for teams, founders, and business owners.</h2>
+				</div>
+				<div class="services-grid">
+					<article class="service-card reveal"><h3>Dashboard Development</h3><p>Interactive dashboards that make performance, operations, and trends easier to track.</p></article>
+					<article class="service-card reveal"><h3>Data Analytics</h3><p>Clean analysis that turns business data into clear insights and next steps.</p></article>
+					<article class="service-card reveal"><h3>Business Reporting</h3><p>Structured reports for recurring decisions, stakeholder updates, and performance reviews.</p></article>
+					<article class="service-card reveal"><h3>Data Visualization</h3><p>Visual storytelling for complex data using focused charts, metrics, and dashboards.</p></article>
+					<article class="service-card reveal"><h3>Automation Solutions</h3><p>Workflow improvements using scripts, tools, and repeatable systems that reduce manual effort.</p></article>
+				</div>
+			</section>
+
+			<section id="contact" class="section contact-section">
+				<div class="contact-panel reveal">
+					<p class="eyebrow">Contact</p>
+					<h2>Let's Build Something Meaningful Together</h2>
+					<p>
+						I am open to Software Engineering, DevOps, Cloud, Data Analytics, and Freelancing opportunities.
+					</p>
+					<div class="contact-links">
+						<a href="mailto:shajahansayyedz@gmail.com">shajahansayyedz@gmail.com</a>
+						<a href="https://www.linkedin.com/in/shajahan-sayyed-58b011249" target="_blank" rel="noopener">LinkedIn</a>
+						<a href="https://github.com/Shajahan30" target="_blank" rel="noopener">GitHub</a>
+						<a href="https://www.instagram.com/shaann.py" target="_blank" rel="noopener">Instagram</a>
 					</div>
-					<div class="icon-container">
-						<i 
-						data-tip=""
-						class="colored tooltip devicon-java-plain"></i>
-						<i class="colored tooltip devicon-python-plain"></i>
-						<i class="colored tooltip devicon-javascript-plain"></i>
-						<i class="colored tooltip devicon-html5-plain"></i>
-						<i class="colored tooltip devicon-css3-plain"></i>
-						<i class="colored tooltip devicon-react-original"></i>
-					</div>
 				</div>
-			</div>
-		</div>
+			</section>
+		</main>
 
-		<div>
-			<section id="about" class="mb-12 px-4">
-				<h2 class="text-3xl font-bold mb-4">About Me</h2>
-				<div class="ring-1 ring-opacity-20 ring-gray-400 shadow-md rounded-lg p-6">
-						<p class="mb-4">
-							Hello,I am a passionate tech enthusiast from CSE '25, I’m an SIH 2024 Winner 🏆 and Accenture Innovation Challenge Finalist 🏅. Fascinated by AI, ML, IoT, and data science 📊, I thrive on solving real-world problems. A nature explorer 🌿 at heart, I’m always learning, creating, and pushing boundaries to innovate. </p>
-						
-						<h3 class="text-xl font-semibold mb-2">Skills</h3>
-						<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-							<div class="flex items-center">
-								<i class="devicon-python-plain colored text-4xl mr-2"></i>
-								<span>Python</span>
-						</div>
-						<div class="flex items-center">
-							<i class="devicon-sqldeveloper-plain colored text-4xl mr-2"></i>
-							<span>Sql</span>
-						</div>
-								<div class="flex items-center">
-										<i class="devicon-cplusplus-plain colored text-4xl mr-2"></i>
-									  
-										<span>C++</span>
-								</div>
-								<div class="flex items-center">
-										<i class="devicon-javascript-plain colored text-4xl mr-2"></i>
-										<span>JavaScript</span>
-								</div>
-								<div class="flex items-center">
-										<i class="devicon-html5-plain colored text-4xl mr-2"></i>
-										<span>HTML5</span>
-								</div>
-								<div class="flex items-center">
-										<i class="devicon-css3-plain colored text-4xl mr-2"></i>
-										<span>CSS3</span>
-								</div>
-								
-								
-								<div class="flex items-center">
-										<i class="devicon-react-original colored text-4xl mr-2"></i>
-										<span>React</span>
-								</div>
-								<div class="flex items-center">
-										<i class="devicon-flutter-plain colored text-4xl mr-2"></i>
-										<span>Flutter</span>
-								</div>
-								<div class="flex items-center">
-										<i class="devicon-github-original text-4xl mr-2"></i>
-										<span>Github</span>
-								</div>
-								<div class="flex items-center">
-									<i class="devicon-blender-original colored text-4xl mr-2"></i>
-									<span>Blender</span>
-							</div>
-							<div class="flex items-center">
-								<i class="devicon-firebase-plain colored text-4xl mr-2"></i>
-								<span>Firebase</span>
-						    </div>
-							
-							<div class="flex items-center">
-								<i class="devicon-mongodb-plain text-4xl mr-2"></i>
-								<span>MongoDB</span>
-						    </div>
-
-						</div>
-				</div>
-		</section>
-
-		<section id="projects" class="mb-12 px-4">
-				<h2 class="text-3xl font-bold mb-4">Projects</h2>
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-						<div class="ring-1 ring-opacity-20 ring-gray-400 shadow-md rounded-lg overflow-hidden">
-								<img src="/Assets/images/project1.png" alt="Scholarspace.io" class="w-full h-48 object-cover"/>
-								<div class="p-6">
-										<h3 class="text-xl font-semibold mb-2">AyurRasa</h3>
-										<p class="mb-4">Developed a web application using Streamlit that predicts primary and secondary rasas of herbs with 97% accuracy using KNN and SVM algorithms, based on parameters like sweet, sour, pungent, astringent, and bitter. Leveraged the Tanimoto coefficient for comparing similarities between known and unknown herbs.</p>
-										<a href="https://github.com/Shajahan30/AyurRasa" class="text-blue-500 hover:underline">Visit Project</a>
-										<a href="https://github.com/Shajahan30/AyurRasa" class="ml-4 text-gray-500 hover:text-gray-700">
-												<i class="devicon-github-original"></i> GitHub
-										</a>
-								</div>
-						</div>
-						
-						<div class="ring-1 ring-opacity-20 ring-gray-400 shadow-md rounded-lg overflow-hidden">
-								<img src="/Assets/images/project2.png" alt="Project InternLink" class="w-full h-48 object-cover"/>
-								<div class="p-6">
-										<h3 class="text-xl font-semibold mb-2">Smart Gas Trolley</h3>
-										<p class="mb-4">Developed a Smart Gas Trolley with gas leakage and fire alerts, integrated weight measurement, and a smart app for automatic gas booking and tracking. Generated comprehensive gas usage reports with Power BI and designed a 3D gas pipeline leakage prevention system using Blender.</p>
-										<a href="https://github.com/Shajahan30/Smart_Gas_Trolley" class="text-blue-500 hover:underline">Visit Project</a>
-										<a href="https://github.com/Shajahan30/Smart_Gas_Trolley" class="ml-4 text-gray-500 hover:text-gray-700">
-												<i class="devicon-github-original"></i> GitHub
-										</a>
-								</div>
-						</div>
-
-						<div class="ring-1 ring-opacity-20 ring-gray-400 shadow-md rounded-lg overflow-hidden">
-								<img src="/Assets/images/project3.png" alt="FutureSpace" class="w-full h-48 object-cover"/>
-								<div class="p-6">
-										<h3 class="text-xl font-semibold mb-2">Fashion Sales Dashboard</h3>
-										<p class="mb-4">Developed a Power BI sales dashboard for a clothing business, visualizing and analyzing sales trends and product performance across different locations. The dashboard effectively showcases past sales trends and insights.</p>
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiZWM1YjVjMDMtNDNjNy00Y2IyLWI0YzQtNzBmMjM1YTU0MWZjIiwidCI6IjI1ZDNhZDg5LWJlYjUtNDJmOS05ODVkLTExNTUxYzVlZDZhNyIsImMiOjN9" class="text-blue-500 hover:underline">Visit Project</a>
-										<a href="#" class="ml-4 text-gray-500 hover:text-gray-700">
-												<i class="devicon-github-original"></i> GitHub
-										</a>
-								</div>
-						</div>
-
-						<div class="ring-1 ring-opacity-20 ring-gray-400 shadow-md rounded-lg overflow-hidden">
-								<img src="/Assets/images/project4.png" alt="Cline" class="w-full h-48 object-cover"/>
-								<div class="p-6">
-										<h3 class="text-xl font-semibold mb-2">Rasas of crude herbs and its constituents Dashboard</h3>
-										<p class="mb-4">Developed a Power BI dashboard to analyze the rasas of crude herbs and their constituents, such as Na, Mg, K, and various acids. The dashboard visualizes the chemical composition present in each rasa category—astringent, sweet, sour, bitter, and pungent—showing the percentage composition of each constituent within the rasas. This provides a detailed insight into the chemical makeup of herbs.</p>
-										<a href="https://app.powerbi.com/view?r=eyJrIjoiY2MwNzRkZmItYzZmZi00OGU1LWI1ZjctZWU1ZmZjYTI2Nzk5IiwidCI6IjI1ZDNhZDg5LWJlYjUtNDJmOS05ODVkLTExNTUxYzVlZDZhNyIsImMiOjN9" class="text-blue-500 hover:underline">Visit Project</a>
-										<a href="#" class="ml-4 text-gray-500 hover:text-gray-700">
-												<i class="devicon-github-original"></i> GitHub
-										</a>
-								</div>
-						</div>
-				</div>
-		</section>
-
-		<section id="contact" class="mb-12 px-4">
-				<h2 class="text-3xl font-bold mb-4">Contact</h2>
-				<div class="ring-1 ring-opacity-20 ring-gray-400 shadow-md rounded-lg p-6">
-						<p class="mb-4">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
-						<div class="flex flex-col space-y-2">
-								<a href="https://github.com/Shajahan30" target="_blank" class="flex items-center text-gray-700 hover:text-gray-900">
-										<i class="devicon-github-original text-2xl mr-2"></i>
-										<span>Shajahan30</span>
-								</a>
-								<a href="mailto:tomsteve187@gmail.com" class="flex items-center text-gray-700 hover:text-gray-900">
-										<svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-										<span>shajahansayyedz@gmail.com</span>
-								</a>
-								<a href="www.linkedin.com/in/shajahan-sayyed-58b011249" class="flex items-center text-gray-700 hover:text-gray-900">
-										<i class="devicon-linkedin-plain text-2xl mr-2"></i>
-										<span>LinkedIn Profile</span>
-								</a>
-								<!-- Instagram -->
-								<a href="https://www.instagram.com/shajahan_30/" class="flex items-center text-gray-700 hover:text-gray-900">
-										<i class="fab fa-instagram text-2xl mr-2"></i>
-										<span>Instagram</span>
-								</a>
-						</div>
-				</div>
-		</section>
-		</div>
-		<script src="/Assets/js/script.js"></script>
-		<script src="/Assets/js/theme.js"></script>
-
-		
+		<script src="Assets/js/script.js"></script>
 	</body>
 </html>
